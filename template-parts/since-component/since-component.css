@@ -1,0 +1,43 @@
+.since-component {
+  max-width: 1300px;
+  margin: 0 auto 2rem auto;
+  border-bottom: 1px solid black;
+}
+
+.since-component .content {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  padding: 4.5rem 0rem;
+}
+
+.since-component .content h3 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  width: 50%;
+}
+
+.since-component .content > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 1;
+  gap: 2rem;
+  box-sizing: border-box;
+  padding: 0rem 2rem;
+}
+
+.since-component .content > div p {
+  margin: 0;
+  font-size: 0.90rem;
+  line-height: 2;
+}
+
+.since-component .content > div button {
+  padding: 0.90rem 3rem;
+  width: fit-content;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=since-component.css.map */

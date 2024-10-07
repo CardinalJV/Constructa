@@ -1,0 +1,115 @@
+.group_figures {
+  max-width: 1300px;
+  margin: 0 auto 2rem auto;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid black;
+}
+
+.group_figures .content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.group_figures .content h3 {
+  flex-basis: 20%;
+  font-size: 2.5rem;
+}
+
+.group_figures .content p {
+  all: unset;
+}
+
+.group_figures .content .items {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 2rem;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.group_figures .content .items .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  min-height: 90px;
+}
+
+.group_figures .content .items .number {
+  font-size: 4rem;
+  max-height: 4.2rem;
+}
+
+.group_figures .content .items .number #point {
+  display: inline-block;
+  height: 100%;
+}
+
+.group_figures .content .items .info {
+  font-size: 0.90rem;
+  width: 90%;
+}
+
+.group_figures .content #item-1 {
+  flex-basis: 25%;
+}
+
+.group_figures .content #item-2 {
+  flex-basis: 35%;
+}
+
+.group_figures .content #item-2 #more-content {
+  display: flex;
+}
+
+.group_figures .content #item-2 #more-content > div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.group_figures .content #item-2 #more-content > div > p:first-of-type {
+  width: 100%;
+}
+
+.group_figures .content #item-2 #more-content > div:first-of-type {
+  border-right: 1px solid gray;
+  padding-right: 1rem;
+}
+
+.group_figures .content #item-2 #more-content > div:last-of-type {
+  border-left: 1px solid gray;
+  padding-left: 1rem;
+}
+
+.group_figures .content #item-3 .title, .group_figures .content #item-3 #point {
+  color: #c3b9b2;
+}
+
+.group_figures .content #item-4 .title, .group_figures .content #item-4 #point {
+  color: #6b8cb2;
+}
+
+.group_figures .content #item-5 .title, .group_figures .content #item-5 #point {
+  color: #3a516f;
+}
+
+.group_figures .content #footer {
+  font-size: 0.75rem;
+  color: gray;
+  display: flex;
+}
+
+.group_figures .content #footer p #text-hidden {
+  display: none;
+}
+/*# sourceMappingURL=group_figures.css.map */

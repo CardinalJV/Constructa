@@ -1,0 +1,123 @@
+.group_figures {
+    max-width: 1300px;
+    margin: 0 auto 2rem auto;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid black;
+
+    .content {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+
+        h3{
+            flex-basis: 20%;
+            font-size: 2.5rem;
+        }
+
+        p {
+            all: unset;
+        }
+
+        .items {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid lightgray;
+            flex: 1;
+            box-sizing: border-box;
+            padding: 2rem;
+            font-weight: bold;
+            line-height: 1.25;
+
+            .title {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                font-size: 1.5rem;
+                line-height: 1.25;
+                min-height: 90px;
+            }
+
+            .number {
+                font-size: 4rem;
+                max-height: 4.2rem;
+
+                #point{
+                    display: inline-block;
+                    height: 100%;
+                }
+            }
+
+            .info {
+                font-size: 0.90rem;
+                width: 90%;
+            }
+        }
+
+        #item-1{
+            flex-basis: 25%;
+        }
+
+        #item-2{
+            flex-basis: 35%;
+
+            #more-content{
+                display: flex;
+
+                >div{
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 50%;
+                    box-sizing: border-box;
+
+                    >p:first-of-type{
+                        width: 100%;
+                    }
+                }
+
+                >div:first-of-type{
+                    border-right: 1px solid gray;
+                    padding-right: 1rem;
+                }
+
+                >div:last-of-type{
+                    border-left: 1px solid gray;
+                    padding-left: 1rem;
+                }
+            }
+        }
+
+        #item-3 {
+            .title, #point {
+                color: rgb(195, 185, 178);
+            }
+        }
+
+        #item-4 {
+            .title, #point {
+                color: rgb(107, 140, 178);
+            }
+        }
+
+        #item-5 {
+            .title, #point {
+                color: rgb(58, 81, 111);
+            }
+        }
+
+        #footer {
+            font-size: 0.75rem;
+            color: gray;
+            display: flex;
+    
+           p{
+    
+            #text-hidden{
+                display: none;
+            }
+           }
+        }
+    }
+}

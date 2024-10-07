@@ -1,0 +1,52 @@
+button {
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .header{
+    max-width: 1200px;
+    margin: 0 auto 1rem auto;
+
+    .header-content {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      height: fit-content;
+      font-family: 'Poppins', sans-serif;
+      gap: 3rem;
+    
+      p {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    
+      .header-buttons {
+        display: flex;
+    
+        button {
+          display: flex;
+          align-items: center;
+          font-size: 1rem;
+          min-width: fit-content;
+          padding: 0.5rem;
+    
+          span {
+            color: darkgray;
+          }
+        }
+      }
+    
+      #menu {
+        display: flex;
+        margin-left: auto;
+        color: white;
+        align-items: center;
+        justify-content: space-around;
+        width: 6rem;
+        height: 2.5rem;
+        background-color: #333333;
+      }
+    }
+  }
+  

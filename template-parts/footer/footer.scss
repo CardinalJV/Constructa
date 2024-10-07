@@ -1,0 +1,102 @@
+.footer{
+    max-width: 1300px;
+    margin: auto;
+    background-color: rgb(29, 29, 27);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    button{
+        cursor: pointer;
+    }
+
+    .content{
+        display: flex;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        padding: 2.5rem;
+
+        .items{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            padding: 1rem;
+            box-sizing: border-box;
+
+            #title{
+                margin: 0;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            ul{
+                list-style: none;
+                padding: 0;
+
+                li{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 1rem;
+
+                    span{
+                        font-size: 2rem;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        #item-1{
+            button{
+                margin-top: auto;
+                text-align: center;
+                width: 100%;
+                border: 1px solid white;
+                padding: 0.75rem 1.5rem;
+            }
+        }
+
+        #item-2{
+            #social-buttons{
+                display: flex;
+                justify-content: space-between;
+
+                button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 1;
+                    width: 3em;
+                    height: 3em;
+                    border: 1px solid white;
+                    
+                    a{ 
+                        i{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        #item-3{
+            gap: 1rem;
+            button{
+                border: 1px solid white;
+                padding: 0.50rem 1.5rem;
+            }
+        }
+    }
+
+    .info{
+        display: flex;
+        gap: 2.5rem;
+        border-top: 2px solid gray;
+        padding: 0 2rem;
+        color: gray;
+
+        :last-child{
+            margin-left: auto;
+        }
+    }
+}
