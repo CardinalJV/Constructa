@@ -4,10 +4,11 @@ button {
   }
   
   .header{
-    max-width: 1200px;
     margin: 0 auto 1rem auto;
 
     .header-content {
+      margin: auto;
+      max-width: 1200px;
       display: flex;
       justify-content: flex-start;
       width: 100%;
@@ -46,6 +47,7 @@ button {
         width: 6rem;
         height: 2.5rem;
         background-color: #333333;
+        cursor: pointer;
       }
     }
   }

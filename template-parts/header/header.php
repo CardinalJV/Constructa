@@ -22,10 +22,9 @@
             </button>
         </div>
 
-        <button id="menu">
+        <button id="menu" onclick="showModal()">
             Plus
             <span class="material-icons">menu</span>
         </button>
-
     </div>
 </section>

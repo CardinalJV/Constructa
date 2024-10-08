@@ -6,11 +6,12 @@ function child_theme_enqueue_assets() {
     $styles = [
         'header-style' => '/template-parts/header/header.css',
         'banner-style' => '/template-parts/banner/banner.css',
+        'modal-style'=> '/template-parts/modal/modal.css',
         'tooltip-style' => '/template-parts/tooltip-component/tooltip-component.css',
         'since-component-style' => '/template-parts/since-component/since-component.css',
         'group_figures-style' => '/template-parts/group_figures/group_figures.css',
         'actuality-style' => '/template-parts/actuality/actuality.css',
-        'footer-style' => '/template-parts/footer/footer.css'
+        'footer-style' => '/template-parts/footer/footer.css',
     ];
 
     foreach ($styles as $handle => $path) {
@@ -22,7 +23,7 @@ function child_theme_enqueue_assets() {
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css', array(), '6.0.0');
 
     wp_enqueue_script('custom-js', get_stylesheet_directory_uri() . '/main.js', array(), filemtime(get_stylesheet_directory() . '/main.js'), true);
-}
+};
 
 add_action('wp_enqueue_scripts', 'child_theme_enqueue_assets');
 ?>

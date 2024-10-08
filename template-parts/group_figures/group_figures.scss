@@ -3,6 +3,7 @@
     margin: 0 auto 2rem auto;
     font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid black;
+    padding-bottom: 2rem;
 
     .content {
         max-width: 1200px;
@@ -107,17 +108,25 @@
             }
         }
 
-        #footer {
+        #footer{
             font-size: 0.75rem;
             color: gray;
             display: flex;
     
            p{
-    
-            #text-hidden{
+            #hidden-text{
                 display: none;
+            }
+
+            #toggle-button{
+                padding: 0 0.5rem;
+                color: lightskyblue;
+                text-decoration: underline;
+                cursor: pointer;
             }
            }
         }
     }
 }
+
+// wXKRrj4zzptAImC

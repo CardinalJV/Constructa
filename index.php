@@ -19,6 +19,7 @@
 
     <main>
         <?php
+        get_template_part('template-parts/modal/modal');
         get_template_part('template-parts/since-component/since-component');
         get_template_part('template-parts/group_figures/group_figures');
         get_template_part('template-parts/actuality/actuality');
@@ -30,5 +31,5 @@
         get_template_part('template-parts/footer/footer');
         ?>
     </footer>
-    
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/main.js"></script>
 </body>

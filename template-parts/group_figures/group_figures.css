@@ -3,6 +3,7 @@
   margin: 0 auto 2rem auto;
   font-family: 'Poppins', sans-serif;
   border-bottom: 1px solid black;
+  padding-bottom: 2rem;
 }
 
 .group_figures .content {
@@ -109,7 +110,14 @@
   display: flex;
 }
 
-.group_figures .content #footer p #text-hidden {
+.group_figures .content #footer p #hidden-text {
   display: none;
+}
+
+.group_figures .content #footer p #toggle-button {
+  padding: 0 0.5rem;
+  color: lightskyblue;
+  text-decoration: underline;
+  cursor: pointer;
 }
 /*# sourceMappingURL=group_figures.css.map */

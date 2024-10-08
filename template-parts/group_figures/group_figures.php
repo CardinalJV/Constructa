@@ -42,12 +42,9 @@
         </div>
 
         <div id="footer">
-                <p>*Victoires Haussmann SGP est une société de gestion agréée par l'Autorité des Marchés Financiers (AMF) en tant que gestionnaire AIFM de fonds d'investissement immobiliers <span id="text-hidden">réservés à des investisseurs professionnels ou avertis. Elle ne commercialise pas activement les fonds qu'elle gère et les informations communiquées ici ne constituent pas des conseils ou recommandations d'investissement au sens de la réglementation MIF. Victoires Haussmann SGP est une société intégrée au groupe Bellechasse SAS et est indépendante juridiquement de la société Constructa SA et de ses filiales.</span>
+            <p>
+                *Victoires Haussmann SGP est une société de gestion agréée par l'Autorité des Marchés Financiers (AMF) en tant que gestionnaire AIFM de fonds d'investissement immobiliers<span id="three-points">...</span><span id="hidden-text"> réservés à des investisseurs professionnels ou avertis. Elle ne commercialise pas activement les fonds qu'elle gère et les informations communiquées ici ne constituent pas des conseils ou recommandations d'investissement au sens de la réglementation MIF. Victoires Haussmann SGP est une société intégrée au groupe Bellechasse SAS et est indépendante juridiquement de la société Constructa SA et de ses filiales.</span><button id="toggle-button" onclick="toggleText()">Voir plus</button>
             </p>
-            <button id="toggle-button" onclick="toggleText()">
-                Voir plus
-            </button>
         </div>
-
     </div>
 </section>

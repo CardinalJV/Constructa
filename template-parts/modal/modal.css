@@ -1,0 +1,14 @@
+.modal {
+  display: none;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+}
+
+.modal .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+/*# sourceMappingURL=modal.css.map */
